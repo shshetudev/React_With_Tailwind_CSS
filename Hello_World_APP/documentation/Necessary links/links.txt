@@ -1,0 +1,1 @@
+https://devdojo.com/tnylea/creating-a-slider-with-tailwind-css

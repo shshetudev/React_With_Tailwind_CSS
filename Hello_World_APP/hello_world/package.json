@@ -11,12 +11,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.1",
+    "react-slick": "^0.28.1",
     "tailwindcss": "^2.1.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "watch:css": "postcss src/assets/styles/tailwind.css -o src/assets/styles/index.css -w",
-    "start:js": "react-scripts start",
+    "start:js": "PORT=3001 react-scripts start",
     "start": "npm-run-all -p watch:css start:js",
     "prebuild": "NODE_ENV=production postcss src/assets/styles/tailwind.css -o src/assets/styles/index.css",
     "build": "react-scripts build",
